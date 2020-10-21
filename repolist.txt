@@ -27,4 +27,4 @@ https://github.com/Ali-RS/jme-minimap#jayfella
 https://github.com/Ali-RS/jme-focuscamera#jayfella
 https://github.com/Ali-RS/jme-calendar#jayfella
 https://github.com/NyouB/JmeDevKitGradlePlugin#jayfella
-https://github.com/richardTingle/jme-jfx-11
+https://github.com/richardTingle/jme-jfx-11#jayfella
