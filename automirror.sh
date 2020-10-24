@@ -15,6 +15,7 @@ do
     if [ $i -ge $l ];
     then
         i=0
+        echo "Mirroring completed for all the repos. Sleep for $TIME_BETWEEN_EXECUTIONS seconds."
         sleep $TIME_BETWEEN_EXECUTIONS
     fi
     ./mirror.sh "${repolist[$i]}"
