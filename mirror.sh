@@ -39,7 +39,7 @@ function mirror {
             then
                 v="--priv"
             fi
-            gh repo create $BACKUP_ORG_NAME/$mirrorId   -y $v -d "Mirror of $user/$repo from $host" 
+            gh repo create   --enable-issues=false  --enable-wiki=false $BACKUP_ORG_NAME/$mirrorId   -y $v -d "Mirror of $user/$repo from $host" 
             sleep 10
         fi
         cd "$WORK_DIR"
